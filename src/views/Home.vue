@@ -1,10 +1,6 @@
 <script setup>
 import Card from "@/components/Card.vue";
-import Card2 from "@/components/Card2.vue";
-import Card3 from "@/components/Card3.vue";
-
 import Header from "@/components/Header.vue";
-
 
 const totalPending = 16;
 const totalReview = 3;
@@ -16,12 +12,10 @@ const totalTodo = 24;
   <div class="container my-2">
   
     <Header />
-  
     <p class="display-6 mb-4">Dashboard Request</p>
-
     <div class="row">
       <div class="col d-flex justify-content">
-        <button type="button" class="btn btn-primary">+ Add ticket</button>
+        <button type="button" class="btn btn-primary">+ Add request</button>
       </div>
       <div class="col">
         <div class="input-group">
@@ -42,63 +36,90 @@ const totalTodo = 24;
       <div class="col bg-light rounded-3 m-2">
         <h6 class="m-3 text-muted" >TO DO: {{ totalTodo }}</h6>
         <hr>
-        <div class="scroller">
-          <Card2 />
-          <Card3 />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+        <div class="scroller-y">
+          <Card 
+            title="Association besoin local pour les adhérents" 
+            contact="Jean DUPONT" 
+            dateStart="21-01-22"
+            departement="ASSO"
+          />
+    
+          <Card 
+            title="Demande logement 2/3P" 
+            contact="Marie FRANCOIX" 
+            dateStart="11-06-22"
+            departement="LOGEMENT"
+          />
+          <Card 
+            title="Demande salle polyvalente" 
+            contact="Asso Musique " 
+            dateStart="09-06-22"
+            departement="CULTURE"
+          />
+          
         </div>
       </div>
 
       <div class="col bg-light rounded-3 m-2">
         <h6 class="m-3 text-muted">PENDING {{ totalPending }}</h6>
         <hr>
-        <div class="scroller">
-          <Card3 />
-          <Card2 />
-          <Card2 />
-          <Card2 />
-          <Card2 />
-          <Card2 />
+        <div class="scroller-y">
+          <Card 
+            title="Renovation route Av. Dupont" 
+            contact="riverain" 
+            dateStart="11-06-22"
+            departement="ROUTE"
+          />
+          
         </div>
       </div>
 
       <div class="col bg-light rounded-3 m-2 ">
         <h6 class="m-3 text-muted">REVIEW {{ totalReview }}</h6>
         <hr>
-        <div class="scroller">
-          <Card3 />
-          <Card2 />
-          <Card2 />
-          <Card2 />
-          <Card2 />
-          <Card2 />
+        <div class="scroller-y">
+          <Card 
+            title="recherche emploi/stage" 
+            contact="Mme DELABORD" 
+            dateStart="31-08-22"
+            departement="EMPLOI"
+          />
+          <Card 
+            title="urbanisme réunion" 
+            contact="Sylvie LAURENT" 
+            dateStart="31-09-22"
+            departement="URBANISME"
+          />
+          
         </div>
       </div>
+
       <div class="col bg-light rounded-3 m-2  ">
         <h6 class="m-3 text-muted">SENT {{ totalSent }}</h6>
         <hr>
-        <div class="scroller">
-          <Card3 />
-          <Card2 />
-          <Card2 />
-          <Card2 />
-          <Card2 />
-          <Card2 />
+        <div class="scroller-y">
+          <Card
+            title="problème voisinage rue du Conservatoire" 
+            contact="Mme M MARCONI" 
+            dateStart="31-08-22"
+            departement="PLAINTE"
+          /> 
         </div>
       </div>
+
+
     </div>
   </div>
 </template>
 
 
 <style scoped>
-.scroller {
+.scroller-y {
   height: 60vh;
   overflow-y: scroll;
   scrollbar-color: rgb(94, 94, 94) rgb(249, 249, 249);
   scrollbar-width: thin;
 }
+
+
 </style>

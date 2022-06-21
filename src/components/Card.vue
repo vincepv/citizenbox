@@ -1,18 +1,30 @@
 <template>
   <div class="card m-3">
     <div class="card-body">
-      
-      <p class="card-title fs-5">{{ title }} {{id}}</p>
-      <p class="text-muted">from: {{ contact }} {{dateStart}} </p>
-      <p class="badge bg-secondary">{{ departement }}</p>
-      <i class="bi bi-paperclip"></i>
+      <p class="card-title fw-bold">{{ title }}</p>
+      <p id="description" class="text-muted fw-light">
+        {{ contact }} | {{ dateStart }}
+      </p>
       <div class="row">
-        <div class="col d-grid gap-2 ">
-          <button type="button" class="btn btn-primary ">Edit</button>
+        <div class="col">
+          <p class="badge rounded-pill bg-primary">{{ departement }}</p>
         </div>
-        
-        <div class="col d-grid gap-2">
-          <button type="button" class="btn btn-danger">Delete</button>
+        <div class="col d-flex justify-content-end">
+          
+          <div class="dropdown">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+            <i class="bi bi-three-dots-vertical"></i>
+            </button>
+            <ul class="dropdown-menu" >
+              <li><a class="dropdown-item" href="/request">Editer</a></li>
+              <li><a class="dropdown-item text-danger" href="#">Supprimer</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -20,11 +32,19 @@
 </template>
 
 <script setup>
-const title = "Soccer club city playground ";
-const contact = "Marco Polo";
-const text = "Ask boss to upgrade equipement for all kids.";
-const id = "#4627";
-const departement = "SPORT";
-const dateStart = "23-07-2022";
-const dateEnd = "15/08/22";
+defineProps({
+  title: String,
+  contact: String,
+  dateStart: String,
+  departement: String,
+});
+
+
+
 </script>
+
+<style scoped>
+#description {
+  font-size: 14px;
+}
+</style>

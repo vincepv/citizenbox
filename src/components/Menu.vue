@@ -10,6 +10,17 @@ import { RouterLink } from "vue-router";
       <i class="bi bi-house"></i>
       Home
     </RouterLink>
+
+    <RouterLink class="link-dark" to="/add-request">
+      <i class="bi bi-plus-circle"></i>
+      Add Request
+    </RouterLink>
+
+    <RouterLink class="link-dark" to="/archiving">
+      <i class="bi bi-archive"></i>
+      Archiving
+    </RouterLink>
+    
   </nav>
 </template>
 
