@@ -1,5 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+
+import Logo from '@/components/Logo.vue'
 </script>
 
 <template>
@@ -7,25 +9,12 @@ import { RouterLink, RouterView } from 'vue-router'
   <header class="col-2 bg-light ">
     <div class="m-2">
       <div>
-        <div class="logo d-flex">
-          <img alt="DigitaleBox logo" class="" src="@/assets/logo.png" width="40" height="40" />
-          <p class="m-2 fw-lighter">DigitaleBox</p>
-        </div>
-        
-        <hr>
+        <Logo />
         <nav class="fs-5 d-flex flex-column">
           <RouterLink class="link-dark"  to="/">
             <i class="bi bi-house"></i>
             Home
-          </RouterLink>
-          <RouterLink class="link-dark" to="/about">
-            <i class="bi bi-gear"></i>
-            About
-          </RouterLink>
-          <RouterLink class="link-dark" to="/article">
-            <i class="bi bi-archive"></i>
-            Calculateur
-          </RouterLink>
+          </RouterLink> 
         </nav>
       </div>
     </div>
