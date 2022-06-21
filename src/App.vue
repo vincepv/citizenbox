@@ -1,7 +1,9 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
+
 
 import Logo from '@/components/Logo.vue'
+import Menu from '@/components/Menu.vue'
 </script>
 
 <template>
@@ -10,12 +12,7 @@ import Logo from '@/components/Logo.vue'
     <div class="m-2">
       <div>
         <Logo />
-        <nav class="fs-5 d-flex flex-column">
-          <RouterLink class="link-dark"  to="/">
-            <i class="bi bi-house"></i>
-            Home
-          </RouterLink> 
-        </nav>
+        <Menu/>
       </div>
     </div>
   </header>
@@ -28,21 +25,13 @@ import Logo from '@/components/Logo.vue'
 </template>
 
 <style scoped>
-.logo {
-  box-sizing: border-box;
-  overflow-wrap: break-word;
-  color:rgb(119, 118, 118)
-}
+
 
 header {
   height: 100vh;
 }
 
-nav a {
-  text-decoration: none;
-  overflow-wrap: break-word;
 
-}
 
 </style>
 

@@ -9,10 +9,6 @@
 </nav>
 </template>
 
-<script>
-
-</script>
-
 <style scoped>
 
 li a {
