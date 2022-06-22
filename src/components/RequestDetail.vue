@@ -41,13 +41,42 @@
 
     <div class="col">
       <p class="display-6">Réponse</p>
+      <p class="mt-4 text-muted">MODELE DE REPONSE</p>
+      <hr />
+
+
+
+      <p class="mt-4 text-muted">REPONSE PERSONNALISEE</p>
+      <hr />
+      <TextEditor />
+
+      <p class="mt-4 text-muted">SIGNATURE</p>
+      <hr />
+      <Signature />
+
+      <p class="mt-4 text-muted">EXPOTRTATION</p>
+      <hr />
+      <div class="row">
+        <div class="col">
+          <button type="button" class="btn btn-primary">Imprimer</button> 
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-primary">Exporter en PDF</button>
+        </div>
+      </div>
+
+
+
     </div>
   </div>
 </template>
 
 <script setup>
 
-import ChangeState from '@/components/ChangeState.vue'
+import ChangeState from '@/components/ChangeState.vue';
+import TextEditor from '@/components/TextEditor.vue';
+import Signature from '@/components/Signature.vue';
+
 
 const title = "Demande de logement 2/3 pieces lotissement Jaurès";
 const contact = "Paul MARCONI";
