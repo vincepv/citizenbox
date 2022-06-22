@@ -4,9 +4,9 @@ import router from './router'
 // state management
 import { createPinia } from 'pinia'
 
-// Import Bootstrap and BootstrapVue CSS files (order is important)
+// load bootstrap for the whole project
 import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+
 
 
 const pinia = createPinia()

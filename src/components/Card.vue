@@ -18,7 +18,7 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-            <i class="bi bi-three-dots-vertical"></i>
+            <i class="bi bi-gear"></i>
             </button>
             <ul class="dropdown-menu" >
               <li><a class="dropdown-item" href="/request">Editer</a></li>

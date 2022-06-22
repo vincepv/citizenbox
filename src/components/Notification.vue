@@ -1,5 +1,5 @@
 <template>
-<div class = "d-flex justify-content-end">
+<div>
   <i class="bi bi-bell"></i>
 </div>
 </template>

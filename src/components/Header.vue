@@ -7,13 +7,13 @@
       <Notification />
     </div>
     <div class="col-1">
-      <LogOut />
+      <Profil />
     </div>
   </div>
 </template>
 
 <script setup>
-import LogOut from "@/components/LogOut.vue";
+import Profil from "@/components/Profil.vue";
 import Breadcrumb from "@/components/Breadcrumb.vue";
 import Notification from "@/components/Notification.vue";
 </script>

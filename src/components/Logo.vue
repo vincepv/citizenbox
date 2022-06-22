@@ -7,7 +7,7 @@
       width="40"
       height="40"
     />
-    <p class="m-2 fw-lighter text-muted ">DigitaleBox</p>
+    <p class="m-2 fw-lighter text-muted ">SRM</p>
   </div>
 
   <hr />

@@ -34,7 +34,7 @@ const totalTodo = 24;
 
     <div class="row mt-5 ">
       <div class="col bg-light rounded-3 m-2">
-        <h6 class="m-3 text-muted" >TO DO: {{ totalTodo }}</h6>
+        <h6 class="m-3 text-muted" >TO DO ({{ totalTodo }})</h6>
         <hr>
         <div class="scroller-y">
           <Card 
@@ -61,7 +61,7 @@ const totalTodo = 24;
       </div>
 
       <div class="col bg-light rounded-3 m-2">
-        <h6 class="m-3 text-muted">PENDING {{ totalPending }}</h6>
+        <h6 class="m-3 text-muted">PENDING ({{ totalPending }})</h6>
         <hr>
         <div class="scroller-y">
           <Card 
@@ -75,7 +75,7 @@ const totalTodo = 24;
       </div>
 
       <div class="col bg-light rounded-3 m-2 ">
-        <h6 class="m-3 text-muted">REVIEW {{ totalReview }}</h6>
+        <h6 class="m-3 text-muted">REVIEW ({{ totalReview }})</h6>
         <hr>
         <div class="scroller-y">
           <Card 
@@ -95,7 +95,7 @@ const totalTodo = 24;
       </div>
 
       <div class="col bg-light rounded-3 m-2  ">
-        <h6 class="m-3 text-muted">SENT {{ totalSent }}</h6>
+        <h6 class="m-3 text-muted">SENT ({{ totalSent }})</h6>
         <hr>
         <div class="scroller-y">
           <Card
