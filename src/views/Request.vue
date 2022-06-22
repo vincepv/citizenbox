@@ -4,7 +4,6 @@
     <a href="/" class="col-1">
       <i class="bi bi-arrow-left"></i>
     </a>
-    <p class="display-6 mb-4 col">Request #61383</p>
   </div>
 
   <RequestDetail />
@@ -17,6 +16,7 @@
 
 import Header from '@/components/Header.vue';
 import RequestDetail from '@/components/RequestDetail.vue';
+import ChangeState from '@/components/ChangeState.vue';
 
 
 </script>

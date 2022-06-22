@@ -7,8 +7,8 @@ import { RouterLink } from "vue-router";
 <template>
   <nav class="fs-5 d-flex flex-column">
     <RouterLink class="link-dark" to="/">
-      <i class="bi bi-house"></i>
-      Home
+      <i class="bi bi-kanban"></i>
+      Dashboard
     </RouterLink>
 
     <RouterLink class="link-dark" to="/add-request">
