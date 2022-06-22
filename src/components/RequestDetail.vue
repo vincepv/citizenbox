@@ -44,7 +44,7 @@
       <p class="mt-4 text-muted">MODELE DE REPONSE</p>
       <hr />
 
-
+      <AnswerTemplate />
 
       <p class="mt-4 text-muted">REPONSE PERSONNALISEE</p>
       <hr />
@@ -76,6 +76,7 @@
 import ChangeState from '@/components/ChangeState.vue';
 import TextEditor from '@/components/TextEditor.vue';
 import Signature from '@/components/Signature.vue';
+import AnswerTemplate from '@/components/AnswerTemplate.vue';
 
 
 const title = "Demande de logement 2/3 pieces lotissement Jaurès";
