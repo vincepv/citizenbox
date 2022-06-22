@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
-import Home from '../views/Home.vue';
+import Dashboard from '../views/Dashboard.vue';
 import AddRequest from '../views/AddRequest.vue';
 import Archiving from '../views/Archiving.vue';
 import Request from '../views/Request.vue'
@@ -10,8 +10,8 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'Home',
-      component:Home
+      name: 'Dashboard',
+      component:Dashboard
     },
     {
       path: '/add-request',

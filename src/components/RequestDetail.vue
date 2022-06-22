@@ -49,7 +49,7 @@
 
 import ChangeState from '@/components/ChangeState.vue'
 
-const title = "Demande de logement 2/3P pour le 01/09";
+const title = "Demande de logement 2/3 pieces lotissement Jaurès";
 const contact = "Paul MARCONI";
 const departement = "LOGEMENT";
 const startDate = "08-06-22";

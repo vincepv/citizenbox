@@ -22,7 +22,7 @@
             </button>
             <ul class="dropdown-menu" >
               <li><a class="dropdown-item" href="/request">Editer</a></li>
-              <li><a class="dropdown-item text-danger" href="#">Supprimer</a></li>
+              <li><a class="dropdown-item text-danger" id="delete" href="#">Supprimer</a></li>
             </ul>
           </div>
         </div>
@@ -46,5 +46,10 @@ defineProps({
 <style scoped>
 #description {
   font-size: 14px;
+}
+
+#delete {
+  color: aqua;
+
 }
 </style>

@@ -29,6 +29,7 @@ import Menu from '@/components/Menu.vue'
 
 header {
   flex-grow: 1;
+  min-height: 100vh;
 }
 
 
