@@ -80,7 +80,6 @@ import Signature from '@/components/Signature.vue';
 import AnswerTemplate from '@/components/AnswerTemplate.vue';
 
 
-
 const contact = "Paul MARCONI";
 const departement = "LOGEMENT";
 const startDate = "08-06-22";

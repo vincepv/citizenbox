@@ -2,8 +2,8 @@
 
 <div class="container my-2">
   <Header/>
-  <p class="display-6">Contact</p>
-
+  <p class="display-6">Détails contact</p>
+  <p></p>
 </div>
 
 </template>
