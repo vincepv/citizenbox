@@ -21,7 +21,7 @@
             <i class="bi bi-gear"></i>
             </button>
             <ul class="dropdown-menu" >
-              <li><a class="dropdown-item" href="/request">Editer</a></li>
+              <li><RouterLink class="dropdown-item" to="/request">Editer</RouterLink></li>
               <li><a class="dropdown-item text-danger" id="delete" href="#">Supprimer</a></li>
             </ul>
           </div>
@@ -32,6 +32,9 @@
 </template>
 
 <script setup>
+
+import { RouterLink } from "vue-router";
+
 defineProps({
   title: String,
   contact: String,

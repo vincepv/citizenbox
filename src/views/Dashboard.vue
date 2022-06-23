@@ -1,4 +1,6 @@
 <script setup>
+
+import { RouterLink } from "vue-router";
 import Card from "@/components/Card.vue";
 import Header from "@/components/Header.vue";
 
@@ -15,7 +17,7 @@ const totalTodo = 24;
     <p class="display-6 mb-4">Dashboard Request</p>
     <div class="row">
       <div class="col d-flex justify-content">
-        <a href="@/add-request" class="btn btn-primary" role="button" aria-disabled="true">+ Add request</a>
+        <RouterLink to="/add-request" class="btn btn-primary" role="button" aria-disabled="true">+ Add request</RouterLink>
       </div>
       <div class="col">
         <div class="input-group">
