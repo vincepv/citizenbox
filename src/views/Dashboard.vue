@@ -15,7 +15,7 @@ const totalTodo = 24;
     <p class="display-6 mb-4">Dashboard Request</p>
     <div class="row">
       <div class="col d-flex justify-content">
-        <a href="/add-request" class="btn btn-primary" role="button" aria-disabled="true">+ Add request</a>
+        <a href="@/add-request" class="btn btn-primary" role="button" aria-disabled="true">+ Add request</a>
       </div>
       <div class="col">
         <div class="input-group">
