@@ -1,10 +1,7 @@
 <template>
   <div class="row">
     <div class="col">
-      <p class="display-6">
-        {{ title }}
-        <ChangeState />
-      </p>
+      <h4>Demande</h4> 
       <p class="mt-4 text-muted">INFORMATION</p>
       <hr />
 
@@ -40,10 +37,9 @@
     </div>
 
     <div class="col">
-      <p class="display-6">Réponse</p>
+      <h4>Réponse</h4> 
       <p class="mt-4 text-muted">MODELE DE REPONSE</p>
       <hr />
-
       <AnswerTemplate />
 
       <p class="mt-4 text-muted">REPONSE PERSONNALISEE</p>
@@ -73,13 +69,13 @@
 
 <script setup>
 
-import ChangeState from '@/components/ChangeState.vue';
+
 import TextEditor from '@/components/TextEditor.vue';
 import Signature from '@/components/Signature.vue';
 import AnswerTemplate from '@/components/AnswerTemplate.vue';
 
 
-const title = "Demande de logement 2/3 pieces lotissement Jaurès";
+
 const contact = "Paul MARCONI";
 const departement = "LOGEMENT";
 const startDate = "08-06-22";

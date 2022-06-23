@@ -15,6 +15,8 @@
     <li><a class="dropdown-item" href="#">Accuser reception CV</a></li>
     <li><a class="dropdown-item" href="#">Stage</a></li>
     <li><a class="dropdown-item" href="#">Association</a></li>
+    <li><a class="dropdown-item" href="#">Fete de la musique</a></li>
+    <li><a class="dropdown-item" href="#">Déchetterie</a></li>
   </ul>
 </div>
 
