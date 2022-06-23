@@ -10,10 +10,10 @@
             Statut
           </button>
           <ul class="dropdown-menu" aria-labelledby="state">
-            <li><button class="dropdown-item" type="button">TO DO</button></li>
-            <li><button class="dropdown-item" type="button">PENDING</button></li>
-            <li><button class="dropdown-item" type="button">REVIEW</button></li>
-            <li><button class="dropdown-item" type="button">SENT</button></li>
+            <li><button class="dropdown-item" type="button">A FAIRE</button></li>
+            <li><button class="dropdown-item" type="button">EN COURS</button></li>
+            <li><button class="dropdown-item" type="button">A VALIDER</button></li>
+            <li><button class="dropdown-item" type="button">A ENVOYER</button></li>
           </ul>
         </div>
 </template>

@@ -38,7 +38,7 @@
 
     <div class="col">
       <h4>Réponse</h4> 
-      <p class="mt-4 text-muted">DESTINATIRE</p>
+      <p class="mt-4 text-muted">DESTINATAIRE</p>
       <hr />
 
 
@@ -55,7 +55,7 @@
       <hr />
       <Signature />
 
-      <p class="mt-4 text-muted">EXPOTRTATION</p>
+      <p class="mt-4 text-muted">EXPORTATION</p>
       <hr />
       <div class="row">
         <div class="col">

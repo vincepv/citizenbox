@@ -1,12 +1,16 @@
 <template>
-  <h1>Contact</h1>
-  contact information
+
+<div class="container my-2">
+  <Header/>
+  <p class="display-6">Contact</p>
+
+</div>
+
 </template>
 
-<script>
-export default {
+<script setup>
 
-}
+import Header from "@/components/Header.vue";
 </script>
 
 <style>

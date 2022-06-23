@@ -11,13 +11,13 @@ const totalTodo = 24;
 </script>
 
 <template>
-  <div class="my-2">
+  <div class="container my-2">
   
     <Header />
-    <p class="display-6 mb-4">Dashboard Request</p>
+    <p class="display-6 mb-4">Demandes</p>
     <div class="row">
       <div class="col d-flex justify-content">
-        <RouterLink to="/add-request" class="btn btn-primary" role="button" aria-disabled="true">+ Add request</RouterLink>
+        <RouterLink to="/add-request" class="btn btn-primary" role="button" aria-disabled="true">+ Ajouter une demande</RouterLink>
       </div>
       <div class="col">
         <div class="input-group">
@@ -36,7 +36,7 @@ const totalTodo = 24;
 
     <div class="row mt-5 ">
       <div class="col bg-light rounded-3 m-2">
-        <h6 class="m-3 text-muted" >TO DO ({{ totalTodo }})</h6>
+        <h6 class="m-3 text-muted" >A FAIRE ({{ totalTodo }})</h6>
         <hr>
         <div class="scroller-y">
           <Card 
@@ -63,7 +63,7 @@ const totalTodo = 24;
       </div>
 
       <div class="col bg-light rounded-3 m-2">
-        <h6 class="m-3 text-muted">PENDING ({{ totalPending }})</h6>
+        <h6 class="m-3 text-muted">EN COURS ({{ totalPending }})</h6>
         <hr>
         <div class="scroller-y">
           <Card 
@@ -77,7 +77,7 @@ const totalTodo = 24;
       </div>
 
       <div class="col bg-light rounded-3 m-2 ">
-        <h6 class="m-3 text-muted">REVIEW ({{ totalReview }})</h6>
+        <h6 class="m-3 text-muted">A VALIDER({{ totalReview }})</h6>
         <hr>
         <div class="scroller-y">
           <Card 
@@ -97,7 +97,7 @@ const totalTodo = 24;
       </div>
 
       <div class="col bg-light rounded-3 m-2  ">
-        <h6 class="m-3 text-muted">SENT ({{ totalSent }})</h6>
+        <h6 class="m-3 text-muted">A ENVOYER ({{ totalSent }})</h6>
         <hr>
         <div class="scroller-y">
           <Card
