@@ -1,7 +1,7 @@
 <template>
   <div class="dropdown">
           <button
-            class="btn btn-primary dropdown-toggle"
+            class="btn  btn-lg btn-primary dropdown-toggle"
             type="button"
             id="state"
             data-bs-toggle="dropdown"

@@ -38,8 +38,13 @@
 
     <div class="col">
       <h4>Réponse</h4> 
+      <p class="mt-4 text-muted">DESTINATIRE</p>
+      <hr />
+
+
       <p class="mt-4 text-muted">MODELE DE REPONSE</p>
       <hr />
+      Réponse Courrier (A4)
       <AnswerTemplate />
 
       <p class="mt-4 text-muted">REPONSE PERSONNALISEE</p>
