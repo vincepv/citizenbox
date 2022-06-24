@@ -1,15 +1,15 @@
 <template>
 
-<div class="container my-2">
-  <Header />
-  <p class="display-6 mb-4">Ajouter une demande</p>
-    
-</div>
+<OneColumn>
+  <template v-slot:col1> 
+    <h1>Test slot</h1>
+  </template>
+</OneColumn>
+
 </template>
 
 <script setup>
-import Header from "@/components/Header.vue";
-
+import OneColumn from "@/layouts/OneColumn.vue";
 </script>
 
 <style>
