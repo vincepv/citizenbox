@@ -3,7 +3,7 @@
     <div class="col-10">
       <Breadcrumb />
     </div>
-    <div class="col-1">
+    <div class="col-1 d-flex justify-content-center align-items-center">
       <Notification />
     </div>
     <div class="col-1">
