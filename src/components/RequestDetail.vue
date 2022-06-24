@@ -75,7 +75,7 @@
 <script setup>
 
 
-import TextEditor from '@/components/TextEditor.vue';
+import TextEditor from '@/plugins/TextEditor.vue';
 import Signature from '@/components/Signature.vue';
 import AnswerTemplate from '@/components/AnswerTemplate.vue';
 

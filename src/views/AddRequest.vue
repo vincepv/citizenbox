@@ -3,12 +3,7 @@
 <div class="container my-2">
   <Header />
   <p class="display-6 mb-4">Ajouter une demande</p>
-  
-  <p>
     
-  </p>
-
-  
 </div>
 </template>
 
