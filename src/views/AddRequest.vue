@@ -12,6 +12,14 @@
         </button>
         <AssignDepartement class="col-2"/>
       </div>
+    
+    <SubTitle title="DEMANDE"/>
+    <div class="row">
+      <div class="col">Sujet</div>
+      <div class="col">Date arrivée</div>
+      <div class="col">Date de fin</div>
+    </div>
+    
     <ContactInformation />
     
 
