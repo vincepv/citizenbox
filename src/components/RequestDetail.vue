@@ -40,7 +40,14 @@
       <h4>Réponse</h4> 
       <p class="mt-4 text-muted">DESTINATAIRE</p>
       <hr />
-
+      Voir les coordonnées du contact
+      <RouterLink 
+        to="/contact" 
+        class="btn btn-primary" 
+        role="button" 
+        aria-disabled="true">
+        Voir
+      </RouterLink> 
 
       <p class="mt-4 text-muted">MODELE DE REPONSE</p>
       <hr />
