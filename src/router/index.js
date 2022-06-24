@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 import AddRequest from '../views/AddRequest.vue';
 import Archiving from '../views/Archiving.vue';
-import Contact from '../views/Contact.vue'
+import ContactDetail from '../views/ContactDetail.vue'
 import Dashboard from '../views/Dashboard.vue';
 import DashboardContact from '../views/DashboardContact.vue'
 import Request from '../views/Request.vue'
@@ -33,8 +33,8 @@ const router = createRouter({
     },
     {
       path: '/contact',
-      name: 'Contact',
-      component:Contact
+      name: 'ContactDetail',
+      component:ContactDetail
     },
     {
       path: '/dashboard-contact',
