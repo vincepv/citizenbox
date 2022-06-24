@@ -2,9 +2,18 @@
   <OneColumn>
     <template v-slot:col1> 
       <p class="display-6 mb-4">Contacts</p>
-      <p>
-        Rechercher dans vos contacts en fonction de critères : date, nom, service...
-      </p>
+     
+      <SubTitle title="AJOUTER DE NOUVEAUX CONTACTS" />
+      <div class="row">
+        <div class="col-1 m-1">
+          <button type="button" class="btn btn-primary">Ajouter</button>
+        </div>
+        <div class="col-1 m-1">
+          <button type="button" class="btn btn-primary">Importer</button>
+        </div>
+      </div>
+
+      <SubTitle title="CHERCHER DES CONTACTS" />
 
       <div class="row">
         <div class="col">
@@ -49,9 +58,6 @@
       </div>
     
       <div class="row">
-        <div class="col-1 m-1">
-          <button type="button" class="btn btn-primary">Importer</button>
-        </div>
         <div class="col-1 m-1">
           <button type="button" class="btn btn-primary">Filtrer</button>
         </div>
@@ -117,6 +123,7 @@
 <script setup>
 
 import OneColumn from "@/layouts/OneColumn.vue";
+import SubTitle from "@/layouts/SubTitle.vue";
 
 </script>
 

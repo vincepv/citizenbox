@@ -48,7 +48,9 @@
         aria-disabled="true">
         Voir
       </RouterLink> 
-
+      <div class="row m-3">
+        Ajouter des personnes en copie de la réponse
+      </div>
       <p class="mt-4 text-muted">MODELE DE REPONSE</p>
       <hr />
       Réponse Courrier (A4)
