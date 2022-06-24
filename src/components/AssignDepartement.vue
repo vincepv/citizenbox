@@ -6,6 +6,7 @@
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
+            <i class="bi bi-file-person"></i>
             Assigner à
           </button>
           <ul class="dropdown-menu" aria-labelledby="state">

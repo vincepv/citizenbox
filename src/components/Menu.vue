@@ -21,13 +21,14 @@ import { RouterLink } from "vue-router";
       Contacts
     </RouterLink>
 
-    <RouterLink class="link-dark m-2" to="/contact">
-      Individu
-    </RouterLink>
-
     <RouterLink class="link-dark m-2" to="/archiving">
       <i class="bi bi-archive"></i>
       Archive
+    </RouterLink>
+
+    <RouterLink class="link-dark m-2" to="#">
+      <i class="bi bi-life-preserver"></i>
+      Aide en ligne
     </RouterLink>
     
   </nav>
