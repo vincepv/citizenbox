@@ -17,6 +17,7 @@ import { RouterLink } from "vue-router";
     </RouterLink>
 
     <RouterLink class="link-dark m-2" to="/dashboard-contact">
+      <i class="bi bi-people"></i>
       Contacts
     </RouterLink>
 

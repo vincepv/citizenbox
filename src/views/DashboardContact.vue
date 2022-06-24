@@ -5,11 +5,11 @@
      
       <SubTitle title="AJOUTER DE NOUVEAUX CONTACTS" />
       <div class="row">
-        <div class="col-1 m-1">
+        <div class="col-2 m-1">
           <button type="button" class="btn btn-primary">Ajouter</button>
         </div>
-        <div class="col-1 m-1">
-          <button type="button" class="btn btn-primary">Importer</button>
+        <div class="col-2 m-1">
+          <button type="button" class="btn btn-primary">Importer un .csv</button>
         </div>
       </div>
 

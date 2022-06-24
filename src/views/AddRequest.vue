@@ -2,8 +2,19 @@
 
 <OneColumn>
   <template v-slot:col1> 
-    <p class="display-6">Ajouter une demande</p>
-    <CreateRequest />
+    
+      <p class="display-6">Ajouter une demande</p>
+      
+      <div class="row">
+        <button type="button" class="btn btn-primary col-2">
+          <i class="bi bi-paperclip"></i>
+          Ajouter fichiers
+        </button>
+        <AssignDepartement class="col-2"/>
+      </div>
+    <ContactInformation />
+    
+
   </template>
 </OneColumn>
 
@@ -11,7 +22,11 @@
 
 <script setup>
 import OneColumn from "@/layouts/OneColumn.vue";
-import CreateRequest from "@/components/CreateRequest.vue";
+import SubTitle from "@/layouts/SubTitle.vue";
+
+import ContactInformation from "@/components/ContactInformation.vue";
+import AssignDepartement from "@/components/AssignDepartement.vue";
+
 </script>
 
 <style>

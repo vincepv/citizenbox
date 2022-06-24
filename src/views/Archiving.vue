@@ -3,9 +3,7 @@
     <template v-slot:col1>
   
       <p class="display-6 mb-4">Archives</p>
-      <p>
-        Rechercher vos demandes en fonction de critères : date, nom, service...
-      </p>
+      <SubTitle title="CHERCHER"/>
 
       <div class="row">
         <div class="col">
@@ -57,6 +55,8 @@
           <button type="button" class="btn btn-primary">Exporter</button>
         </div>
       </div>
+
+      <SubTitle title="RESULTAT" />
 
       <table class="table mt-4">
         <thead>
@@ -146,6 +146,8 @@
 
 <script setup>
 import OneColumn from "@/layouts/OneColumn.vue";
+import SubTitle from "@/layouts/SubTitle.vue";
+
 </script>
 
 <style>

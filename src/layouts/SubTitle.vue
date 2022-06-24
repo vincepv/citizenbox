@@ -1,6 +1,6 @@
 <template>
 <p class="mt-4 text-muted">{{title}}</p>
-<hr /> 
+<hr/> 
   
 </template>
 
