@@ -1,9 +1,14 @@
 <template>
   <OneColumn>
     <template v-slot:col1>
-      <h1>Settings</h1>
-      <SubTitle title="email" />
-      <SubTitle title="ticket Reglage par défaut" />
+      <p class="display-6">Configuration</p>
+      <SubTitle title="Réglages" />
+      <p>Heure, langue</p>
+
+      <SubTitle title="Email" />
+      <p>Email expéditeur, nom expéditeur</p>
+      <SubTitle title="Ticket : reglage par défaut" />
+      <p>cp, ville, pays </p>
     </template>
   </OneColumn>
 </template>
