@@ -26,6 +26,11 @@ import { RouterLink } from "vue-router";
       Archive
     </RouterLink>
 
+    <RouterLink class="link-dark m-2" to="/setting">
+      
+      Configuration
+    </RouterLink>
+
     <RouterLink class="link-dark m-2" to="#">
       <i class="bi bi-life-preserver"></i>
       Aide en ligne

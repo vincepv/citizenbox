@@ -4,8 +4,10 @@ import AddRequest from '../views/AddRequest.vue';
 import Archiving from '../views/Archiving.vue';
 import ContactDetail from '../views/ContactDetail.vue'
 import Dashboard from '../views/Dashboard.vue';
-import DashboardContact from '../views/DashboardContact.vue'
-import Request from '../views/Request.vue'
+import DashboardContact from '../views/DashboardContact.vue';
+import Request from '../views/Request.vue';
+import NotFound from '../views/NotFound.vue';
+import Setting from '../views/Setting.vue';
 
 
 const router = createRouter({
@@ -40,6 +42,16 @@ const router = createRouter({
       path: '/dashboard-contact',
       name: 'DashboardContact',
       component:DashboardContact
+    },
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'NotFound', 
+      component: NotFound
+    },
+    {
+      path: '/setting',
+      name: 'Setting', 
+      component: Setting
     },
   
     

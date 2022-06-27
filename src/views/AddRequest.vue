@@ -2,9 +2,7 @@
 
 <OneColumn>
   <template v-slot:col1> 
-    
       <p class="display-6">Ajouter une demande</p>
-      
       <div class="row">
         <button type="button" class="btn btn-primary col-2">
           <i class="bi bi-paperclip"></i>
