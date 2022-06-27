@@ -34,8 +34,8 @@ const totalTodo = 24;
           </div>
         </div>
       </div>
-      
-      <div class="row mt-5">
+
+      <div class="row mt-5" >
         <div class="col bg-light rounded-3 m-2">
           <h6 class="m-3 text-muted" >A FAIRE ({{ totalTodo }})</h6>
           <hr>
@@ -125,10 +125,6 @@ const totalTodo = 24;
   scrollbar-color: rgb(94, 94, 94) rgb(249, 249, 249);
   scrollbar-width: thin;
 }
-#kanban {
-  width: 120vw;
-  overflow-x: scroll;
-  scrollbar-width: thin;
-}
+
 
 </style>
