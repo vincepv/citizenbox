@@ -26,10 +26,27 @@ import { RouterLink } from "vue-router";
       Archive
     </RouterLink>
 
-    <RouterLink class="link-dark m-2" to="/setting">
-      
+    <a
+      class="m-2 link-dark"
+      role="button"
+      data-bs-toggle="collapse" 
+      aria-expanded="false"
+      href="#collapseConfig" 
+      data-bs-target="#collapseConfig"
+      aria-controls="collapseConfig">
+      <i class="bi bi-gear"></i>
+      Config
+    </a>
+    <RouterLink id="collapseConfig" class="link-dark ms-4" to="/setting">
       Configuration
     </RouterLink>
+    <RouterLink id="collapseConfig" class="link-dark ms-4" to="/user">
+      Utilisateurs
+    </RouterLink>
+    <RouterLink id="collapseConfig" class="link-dark ms-4" to="/role">
+      Rôles
+    </RouterLink>
+
 
     <RouterLink class="link-dark m-2" to="#">
       <i class="bi bi-life-preserver"></i>

@@ -8,6 +8,8 @@ import DashboardContact from '../views/DashboardContact.vue';
 import Request from '../views/Request.vue';
 import NotFound from '../views/NotFound.vue';
 import Setting from '../views/Setting.vue';
+import Role from '../views/Role.vue';
+import User from '../views/User.vue';
 
 
 const router = createRouter({
@@ -52,6 +54,16 @@ const router = createRouter({
       path: '/setting',
       name: 'Setting', 
       component: Setting
+    },
+    {
+      path: '/user',
+      name: 'User', 
+      component: User
+    },
+    {
+      path: '/role',
+      name: 'Role', 
+      component: Role
     },
   
     
