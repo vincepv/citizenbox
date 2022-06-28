@@ -5,6 +5,7 @@ import Archiving from '../views/Archiving.vue';
 import ContactDetail from '../views/ContactDetail.vue'
 import Dashboard from '../views/Dashboard.vue';
 import DashboardContact from '../views/DashboardContact.vue';
+import AddContact from '../views/AddContact.vue';
 import Request from '../views/Request.vue';
 import NotFound from '../views/NotFound.vue';
 import Setting from '../views/Setting.vue';
@@ -39,6 +40,11 @@ const router = createRouter({
       path: '/contact',
       name: 'ContactDetail',
       component:ContactDetail
+    },
+    {
+      path: '/create-contact',
+      name: 'AddContact',
+      component:AddContact
     },
     {
       path: '/dashboard-contact',

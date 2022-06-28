@@ -6,7 +6,8 @@
       <SubTitle title="AJOUTER DE NOUVEAUX CONTACTS" />
       <div class="row">
         <div class="col-2 m-1">
-          <button type="button" class="btn btn-primary">Ajouter</button>
+          <RouterLink to="/create-contact" class="btn btn-primary" role="button" aria-disabled="true">+ Ajouter un contact</RouterLink>
+
         </div>
         <div class="col-2 m-1">
           <button type="button" class="btn btn-primary">Importer un .csv</button>
