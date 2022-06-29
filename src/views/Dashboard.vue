@@ -15,7 +15,7 @@ const totalTodo = 24;
   <OneColumn>
     <template v-slot:col1>
     
-      <p class="display-6 mb-4">{{$t ("Demandes")}}</p>
+      <p class="display-6 mb-4">{{ $t("Demandes") }}</p>
       <div class="row">
         <div class="col d-flex justify-content">
           <RouterLink to="/add-request" class="btn btn-primary" role="button" aria-disabled="true">+ Ajouter une demande</RouterLink>

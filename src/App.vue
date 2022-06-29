@@ -4,20 +4,16 @@ import Logo from "@/components/Logo.vue";
 import TheMenu from "@/components/TheMenu.vue";
 import TheLogin from "@/components/TheLogin.vue";
 
-
 const isLog = true;
-
 </script>
 
 <template>
-
   <div v-if="isLog" class="row">
     <header class="col-2 bg-light">
       <div class="m-2">
         <div>
           <Logo />
           <TheMenu />
-          
         </div>
       </div>
     </header>
@@ -30,7 +26,6 @@ const isLog = true;
   <div v-else>
     <TheLogin />
   </div>
-
 </template>
 
 
